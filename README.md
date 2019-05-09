@@ -26,3 +26,6 @@ Now you can open the index.html in the viewer folder for the viewer.
 
 The viewer needs to enter the streamers ip address which will give them an id in return. the id will be needed for the streamer to connect to each other and share the screen.
 
+## Struggling to fix
+I am struggling to send audio per window instead of streaming the whole systems audio. If anyone could help me out, I would appreciate it.
+
