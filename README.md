@@ -3,7 +3,7 @@ ElectronJS P2P Screen Share
 
 
 ## Requirements
-Have ElectronJS installed globally (`npm install -g electron`)
+Have ElectronJS installed globally (`npm install -g electron`)<br />
 If you want to share your screen with a friend, you will need to open your port for 9000.
 
 ## Get Prepared
