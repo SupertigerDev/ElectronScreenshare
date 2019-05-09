@@ -1,5 +1,5 @@
 # ElectronScreenShare
-This app will allow you to share your screen and your computers audio with your friend!
+This app will allow you to share your screen and your computers audio with your friend! This app is great for sharing their game play to your friend as other platforms restrict you from getting the best quality.
 
 
 ## Requirements
