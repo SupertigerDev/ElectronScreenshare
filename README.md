@@ -1,9 +1,9 @@
 # ElectronScreenShare
-ElectronJS P2P Screen Share
+This app will allow you to share your screen and your computers audio with your friend!
 
 
 ## Requirements
-Have ElectronJS installed globally (`npm install -g electron`)
+Have ElectronJS installed globally (`npm install -g electron`)<br />
 If you want to share your screen with a friend, you will need to open your port for 9000.
 
 ## Get Prepared
