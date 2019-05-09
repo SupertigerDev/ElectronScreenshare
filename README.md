@@ -1,4 +1,5 @@
-# ElectronScreenShare
+![alt text](https://raw.githubusercontent.com/supertiger1234/ElectronScreenshare/master/Preview.png)
+# ElectronJS Screen Share
 This app will allow you to share your screen and your computers audio with your friend! This app is great for sharing their game play to your friend as other platforms restrict you from getting the best quality.
 
 
