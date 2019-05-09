@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/peerjs@0.3.20/dist/peer.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="select-source">
+      <div class="title">Select Source:</div>
+      <div id="sources"></div>
+    </div>
+    <div class="video-container">
+      <div class="buttons">
+        <div class="button">Video and Audio</div>
+        <div class="button">Audio Only</div>
+      </div>
+      <video autoplay></video>
+    </div>
+    <div class="connect-options">
+      <div class="title">Options</div>
+      <div class="input">
+        <div class="field-name">ID</div>
+        <input type="text" id="id" placeholder="ID" />
+      </div>
+      <div class="button" id="connectBtn">Connect And Share</div>
+      <div id="connection-status"></div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

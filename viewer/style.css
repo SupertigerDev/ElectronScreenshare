@@ -1,0 +1,121 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(34, 34, 34);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-content: center;
+}
+.select-source {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 20px);
+}
+#sources {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  background: black;
+  width: 250px;
+  height: 100%;
+  overflow: auto;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(31, 31, 31);
+  width: 100%;
+  height: 100%;
+}
+.video-container .buttons {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container .buttons .button {
+  padding: 5px;
+  background: rgb(59, 59, 59);
+  border-radius: 10px;
+  margin: 5px;
+  user-select: none;
+  transition: 0.3s;
+}
+.video-container .buttons .button:hover {
+  background: rgb(82, 82, 82);
+}
+video {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  align-self: center;
+}
+
+.source-container {
+  background: rgb(63, 63, 63);
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.source-container img {
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
+.source-container:hover {
+  background: rgb(70, 70, 70);
+}
+.title {
+  text-align: center;
+  width: 100%;
+  color: white;
+  align-items: center;
+}
+.connect-options {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+  background: rgb(47, 47, 47);
+  flex-shrink: 0;
+  align-items: center;
+}
+#connected-options {
+  margin-top: 50px;
+  display: none;
+  align-items: center;
+}
+.connect-options .title {
+  font-size: 20px;
+  margin-top: 10px;
+  overflow: auto;
+  text-align: center;
+}
+
+.input {
+  margin: 10px;
+}
+.button {
+  background: rgb(25, 171, 255);
+  padding: 5px;
+  border-radius: 10px;
+  user-select: none;
+}
+#notice {
+  display: none;
+}
