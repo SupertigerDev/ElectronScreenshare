@@ -13,7 +13,7 @@ git clone https://github.com/supertiger1234/ElectronScreenshare.git
 ```
 Then, cd into the streamer directory and install the npm packages:
 ```
-cd streamer
+cd Streamer
 npm install
 ```
 Finally, to start the application, run this command:
