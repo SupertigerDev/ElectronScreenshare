@@ -1,5 +1,5 @@
 # ElectronScreenShare
-ElectronJS P2P Screen Share
+This app will allow you to share your screen and your computers audio with your friend!
 
 
 ## Requirements
